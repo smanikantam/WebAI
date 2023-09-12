@@ -17,16 +17,27 @@ The project aims to develop a versatile web scraping and automation application 
 ## Project Structure
 
 WebAI/
+
 ├── src/
+
 │ ├── webai.py
+
 │ ├── prepare_model.ipynb
+
 │ ├── prepare_dataset.ipynb
+
 │ ├── ...
+
 ├── data/
+
 │ ├── ...
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── LICENSE
+
 └── .gitignore
 
 
