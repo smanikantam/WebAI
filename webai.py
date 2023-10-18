@@ -158,7 +158,7 @@ class WebSite:
 
 
 if(__name__=="__main__"):
-    root = WebSite("facebook","https://facebook.com/",depth=0)
+    root = WebSite("facebook","https://forfof.me",depth=0)
     unique_links = set()
     max_depth = 2  # Set your desired depth limit here
 
@@ -166,11 +166,12 @@ if(__name__=="__main__"):
     
     # Call the function to display the entire tree
     unique_links = set()
-    # root.display_tree(root,unique_links)
+    root.display_tree(root,unique_links)
 
 
     form_link=root.search_signup_form(root)
     if(form_link!=None):
         print("Hey there is a form",end=" : \n")
         root.fill_signup_form(form_link)
+
 
